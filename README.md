@@ -14,4 +14,7 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## rails generate v.s. rails destroy ...
     ## rake db:migrate v.s. rake db:rollback v.s.  rake db:migrate VERSION=0
  
-  
+    rails generate integration_test static_pages
+    ## Capybara::DSL
+    ## bundle exec rspec spec/requests/static_pages_spec.rb
+
