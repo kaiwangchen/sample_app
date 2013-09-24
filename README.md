@@ -17,4 +17,4 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     rails generate integration_test static_pages
     ## Capybara::DSL
     ## bundle exec rspec spec/requests/static_pages_spec.rb
-
+    ## the cycle of Red, Green, Refactor
