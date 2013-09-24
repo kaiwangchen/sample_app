@@ -10,4 +10,8 @@ http://ruby.railstutorial.org/chapters/static-pages#top
 
     subl .gitignore Gemfile
 
-
+    rails generate controller StaticPages home help --no-test-framework
+    ## rails generate v.s. rails destroy ...
+    ## rake db:migrate v.s. rake db:rollback v.s.  rake db:migrate VERSION=0
+ 
+  
