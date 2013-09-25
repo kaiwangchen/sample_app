@@ -18,3 +18,7 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## Capybara::DSL
     ## bundle exec rspec spec/requests/static_pages_spec.rb
     ## the cycle of Red, Green, Refactor
+
+    ## ch4. Rails-flavored Ruby
+    ## helpers defined in ApplicationHelpers module
+    ## are automatically available in views
