@@ -22,3 +22,8 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## ch4. Rails-flavored Ruby
     ## helpers defined in ApplicationHelpers module
     ## are automatically available in views
+
+    ## ch5. page design and named routes
+    ## rails generate controller Users new --no-test-framework
+    ## rails generate integration_test user_pages
+    ## bundle exec rspec spec
