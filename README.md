@@ -30,7 +30,7 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## ch5. page design and named routes
     ## rails generate controller Users new --no-test-framework
     ## rails generate integration_test user_pages
-    ## bundle exec rspec spec
+    ## rspec
 
     ## ch6. modeling users
 
@@ -40,7 +40,9 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## rails console # play with models
 
     ## bundle exec rake test:prepare # copy development.sqlite3 to test.sqlite3
-    ## bundle exec rspec spec
+    ## rspec
 
     ## rails generate migration add_index_to_users_email
     ## bundle exec rake db:migrate
+
+    ## has_secure_password
