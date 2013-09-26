@@ -6,6 +6,10 @@ by [Michael Hartl](http://michaelhartl.com/).
 
 http://ruby.railstutorial.org/chapters/static-pages#top
 
+    ## git checkout master
+    ## git checkout -b <feature_branch>
+
+
     rails new sample_app --skip-test-unit --skip-bundle
 
     subl .gitignore Gemfile
@@ -29,7 +33,14 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## bundle exec rspec spec
 
     ## ch6. modeling users
+
     ## rails generate controller Users new --no-test-framework
     ## rails generate model User name:string email:string
+    ## bundle exec rake db:migrate   # db/development.sqlite3
+    ## rails console # play with models
+
+    ## bundle exec rake test:prepare # copy development.sqlite3 to test.sqlite3
+    ## bundle exec rspec spec
+
+    ## rails generate migration add_index_to_users_email
     ## bundle exec rake db:migrate
-    ## rails console # User.create, find, ...
