@@ -27,3 +27,9 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## rails generate controller Users new --no-test-framework
     ## rails generate integration_test user_pages
     ## bundle exec rspec spec
+
+    ## ch6. modeling users
+    ## rails generate controller Users new --no-test-framework
+    ## rails generate model User name:string email:string
+    ## bundle exec rake db:migrate
+    ## rails console # User.create, find, ...
