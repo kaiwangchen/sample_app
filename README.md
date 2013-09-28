@@ -46,3 +46,6 @@ http://ruby.railstutorial.org/chapters/static-pages#top
     ## bundle exec rake db:migrate
 
     ## has_secure_password
+
+    ## ch9. populate sample users
+    ## bundle exec rake db:populate # lib/tasks/ to populate sample data
